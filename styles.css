@@ -4,3 +4,67 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
+
+main {
+    background: hsl(0, 0%, 8%);
+    padding: 40px 0;
+}
+
+.profile-card {
+    background: hsl(0, 0%, 12%);
+    max-width: 310px;
+    padding: 26px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-img {
+    border-radius: 50px;
+    width: 90px;
+}
+
+.profile-name {
+    color: hsl(0, 0%, 100%);
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.profile-city-country {
+    color: hsl(75, 94%, 57%);
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.profile-job-description {
+    color: #c5bdbd;
+    font-size: 13px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.social-links a {
+    background: hsl(0, 0%, 20%);
+    color: #d7d7d7;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    padding: 13px;
+    border-radius: 7px;
+}
