@@ -67,4 +67,21 @@ main {
     text-decoration: none;
     padding: 13px;
     border-radius: 7px;
+    transition: 0.3s ease-in-out;
+}
+
+.social-links a:hover {
+    background: hsl(75, 94%, 57%);
+    color:hsl(0, 0%, 8%);
+}
+
+@media screen and (min-width: 700px) {
+    main {
+        display: flex;
+        align-items: center;
+        height: 100vh;
+    }
+    .profile-card {
+        width: 320px;
+    }
 }
